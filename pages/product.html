@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+      <div class="heading" >
+       <img class="hai" src="../img/download1.png" alt="">
+       <div>
+       <a href="../index.html"><span class="material-symbols-outlined">
+        home
+        </span></a>
+        <a href="../pages/cart.html"><span class="material-symbols-outlined">
+            shopping_cart
+            </span></a>
+       </div>
+         </div>
+        <div class="product">
+            <div class="pro-cards" id="card">
+        </div>
+        <div class="pro-pic" >
+            <img src="" alt="no image" id="main-image" >
+        </div>
+        <div class="pro-content" >
+           <h4 style="color: rgb(210, 228, 19);margin-bottom: 10px; font-size: 15px;" id="category" ></h4>
+            <h4 style="font-size: 20px; margin-bottom: 15px;" id="title"></h4>
+            <p style="font-size: medium;color: rgb(13, 3, 66);margin-bottom: 15px; width: 500px;" id="description"> </p>
+            <div style="margin-bottom: 20px;">
+                <span><button class="pro-btn" id="rating"> <span><i class="fa-solid fa-star"></i></span></button></span>
+                </div>
+           <div style="word-spacing: 10px;margin-bottom: 10px;">
+            <span style="font-weight: bold;font-size: 30px;" id="discount-price"></span>
+            <span style="text-decoration: line-through;color: rgb(165, 37, 37);" id="original-price"></span>
+            <span style="color: rgb(1, 47, 1);font-weight: bolder; letter-spacing: 2px; " id="discount-percentage">14%OFF</span>
+           </div>
+           <div id="details" >
+            </div>
+            <span class="last-btn">
+            <button class="last-btn1" onclick="addToCart()">ADD TO CART</button>
+           </span>
+           <span>
+            <button class="now" onclick="buynow()">BUY NOW</button>
+           </span>
+        </div>
+       </div>
+<script src="../js/product.js"></script>
+</body>
+</html>
